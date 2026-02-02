@@ -40,9 +40,9 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { href: '#features', label: 'Philosophy', id: 'features' },
-    { href: '#community', label: 'Community', id: 'community' },
-    { href: '#wisdom', label: 'Wisdom', id: 'wisdom' },
+    { href: '#guide', label: 'Guide', id: 'guide' },
+    { href: '#explore', label: 'Explore', id: 'explore' },
+    { href: '#app', label: 'App', id: 'app' },
   ];
 
   return (

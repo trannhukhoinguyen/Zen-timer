@@ -4,7 +4,7 @@ import {
   Sparkles,
   Menu,
   X,
-  PawPrint,
+  Circle,
   Users,
   BookOpen,
   Compass,
@@ -51,9 +51,9 @@ const Navigation = () => {
         href="/"
         className="text-primary flex items-center gap-3 transition-opacity hover:opacity-80"
       >
-        <PawPrint className="h-8 w-8" />
+        <Circle className="h-8 w-8" />
         <span className="font-heading text-foreground text-2xl font-bold">
-          Purrfectly Zen
+          Zen Daily
         </span>
       </a>
 
@@ -82,14 +82,14 @@ const Navigation = () => {
             </motion.div>
           </a>
         ))}
-        <a href="/join">
-          <button
-            data-testid="button-join-nav"
-            className="font-heading bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-2 font-bold shadow-lg transition-all hover:scale-105 hover:shadow-xl"
-          >
-            Join the Clowder
-          </button>
-        </a>
+        {/*<a href="/join">*/}
+        {/*  <button*/}
+        {/*    data-testid="button-join-nav"*/}
+        {/*    className="font-heading bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-2 font-bold shadow-lg transition-all hover:scale-105 hover:shadow-xl"*/}
+        {/*  >*/}
+        {/*    Join the Clowder*/}
+        {/*  </button>*/}
+        {/*</a>*/}
       </div>
 
       {/* Mobile Nav Toggle */}
@@ -508,7 +508,7 @@ const FeatureCard = ({
             className="flex flex-col justify-center space-y-3"
           >
             <div className="flex items-center gap-3">
-              <PawPrint className="text-primary h-7 w-7" />
+              <Circle className="text-primary h-7 w-7" />
               <h3 className="font-heading text-foreground text-lg font-bold">
                 Purrfectly Zen
               </h3>

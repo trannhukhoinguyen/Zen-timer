@@ -652,9 +652,9 @@ export default function Home() {
     <div className="bg-background selection:bg-primary/20 selection:text-primary-foreground min-h-screen">
       <Navigation />
       <Hero />
-      <Features />
+{/*      <Features />
       <Community />
-      <QuoteSection />
+      <QuoteSection />*/}
       <section id="cta" className="px-6 py-24">
         <div className="mx-auto max-w-6xl">
           <motion.div
@@ -733,7 +733,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }

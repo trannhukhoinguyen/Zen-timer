@@ -191,9 +191,9 @@ const Hero = () => {
             Welcome home, human!
           </span>
           <h1 className="font-heading text-foreground mb-6 text-5xl leading-[1.1] font-bold md:text-7xl">
-            Let's find your inner{' '}
+            Let's zen with{' '}
             <span className="text-primary relative inline-block">
-              Zen
+              Cheryx
               <svg
                 className="text-accent absolute -bottom-1 left-0 -z-10 h-3 w-full"
                 viewBox="0 0 100 10"
@@ -206,9 +206,7 @@ const Hero = () => {
                   fill="none"
                 />
               </svg>
-            </span>{' '}
-            <br />
-            with a cat!
+            </span>
           </h1>
           <p className="text-muted-foreground max-w-md text-lg leading-relaxed md:text-xl">
             The purrfect place to disconnect from the noise and reconnect with
@@ -265,39 +263,39 @@ const Hero = () => {
           />
 
           {/* Floating Cards */}
-          <motion.div
-            animate={{ y: [0, -10, 0] }}
-            transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
-            className="bg-card absolute -bottom-8 -left-4 flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:left-10"
-          >
-            <div className="rounded-full bg-green-100 p-2 text-green-600">
-              <Sparkles size={20} />
-            </div>
-            <div>
-              <p className="text-sm font-bold">99% Stress Free!</p>
-              <p className="text-muted-foreground text-xs">Guaranteed purrs</p>
-            </div>
-          </motion.div>
+          {/*<motion.div*/}
+          {/*  animate={{ y: [0, -10, 0] }}*/}
+          {/*  transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}*/}
+          {/*  className="bg-card absolute -bottom-8 -left-4 flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:left-10"*/}
+          {/*>*/}
+          {/*  <div className="rounded-full bg-green-100 p-2 text-green-600">*/}
+          {/*    <Sparkles size={20} />*/}
+          {/*  </div>*/}
+          {/*  <div>*/}
+          {/*    <p className="text-sm font-bold">99% Stress Free!</p>*/}
+          {/*    <p className="text-muted-foreground text-xs">Guaranteed purrs</p>*/}
+          {/*  </div>*/}
+          {/*</motion.div>*/}
 
           {/* Second Badge */}
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{
-              repeat: Infinity,
-              duration: 4,
-              ease: 'easeInOut',
-              delay: 0.5,
-            }}
-            className="bg-card absolute -top-4 -right-4 flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:-right-8"
-          >
-            <div className="rounded-full bg-blue-100 p-2 text-blue-600">
-              <Users size={20} />
-            </div>
-            <div>
-              <p className="text-sm font-bold">500K+ Members</p>
-              <p className="text-muted-foreground text-xs">Growing community</p>
-            </div>
-          </motion.div>
+          {/*<motion.div*/}
+          {/*  animate={{ y: [0, 10, 0] }}*/}
+          {/*  transition={{*/}
+          {/*    repeat: Infinity,*/}
+          {/*    duration: 4,*/}
+          {/*    ease: 'easeInOut',*/}
+          {/*    delay: 0.5,*/}
+          {/*  }}*/}
+          {/*  className="bg-card absolute -top-4 -right-4 flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:-right-8"*/}
+          {/*>*/}
+          {/*  <div className="rounded-full bg-blue-100 p-2 text-blue-600">*/}
+          {/*    <Users size={20} />*/}
+          {/*  </div>*/}
+          {/*  <div>*/}
+          {/*    <p className="text-sm font-bold">500K+ Members</p>*/}
+          {/*    <p className="text-muted-foreground text-xs">Growing community</p>*/}
+          {/*  </div>*/}
+          {/*</motion.div>*/}
         </motion.div>
       </div>
     </section>
@@ -346,7 +344,7 @@ const FeatureCard = ({
   </motion.div>
 );
 
-const Features = () => {
+/*const Features = () => {
   return (
     <section
       id="features"
@@ -388,9 +386,9 @@ const Features = () => {
       </div>
     </section>
   );
-};
+};*/
 
-const Community = () => {
+/*const Community = () => {
   const testimonials = [
     {
       name: 'Sarah Chen',
@@ -464,9 +462,9 @@ const Community = () => {
       </div>
     </section>
   );
-};
+};*/
 
-const QuoteSection = () => {
+/*const QuoteSection = () => {
   return (
     <section
       id="wisdom"
@@ -493,14 +491,14 @@ const QuoteSection = () => {
       </motion.div>
     </section>
   );
-};
+};*/
 
-export const Footer = () => {
+/*export const Footer = () => {
   return (
     <footer className="from-secondary/5 via-background to-primary/5 border-border/40 relative border-t bg-gradient-to-br px-6 py-16">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-8 lg:gap-12">
-          {/* Left Column: Brand */}
+          {/!* Left Column: Brand *!/}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -520,7 +518,7 @@ export const Footer = () => {
             </p>
           </motion.div>
 
-          {/* Center Column: Links by Category */}
+          {/!* Center Column: Links by Category *!/}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -528,7 +526,7 @@ export const Footer = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="space-y-6"
           >
-            {/* Learn */}
+            {/!* Learn *!/}
             <div className="space-y-3">
               <div className="text-primary flex items-center gap-2">
                 <BookOpen className="h-5 w-5" />
@@ -552,7 +550,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            {/* Community */}
+            {/!* Community *!/}
             <div className="space-y-3">
               <div className="text-primary flex items-center gap-2">
                 <Users className="h-5 w-5" />
@@ -578,7 +576,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            {/* Legal */}
+            {/!* Legal *!/}
             <div className="space-y-3">
               <div className="text-primary flex items-center gap-2">
                 <Lock className="h-5 w-5" />
@@ -596,7 +594,7 @@ export const Footer = () => {
             </div>
           </motion.div>
 
-          {/* Right Column: CTA */}
+          {/!* Right Column: CTA *!/}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -626,10 +624,10 @@ export const Footer = () => {
           </motion.div>
         </div>
 
-        {/* Divider */}
+        {/!* Divider *!/}
         <div className="border-border/40 my-8 border-t" />
 
-        {/* Bottom: Copyright */}
+        {/!* Bottom: Copyright *!/}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -647,7 +645,7 @@ export const Footer = () => {
       </div>
     </footer>
   );
-};
+};*/
 
 export default function Home() {
   return (

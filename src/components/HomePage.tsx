@@ -40,9 +40,9 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { href: '#guide', label: 'Guide', id: 'guide' },
-    { href: '#explore', label: 'Explore', id: 'explore' },
-    { href: '#app', label: 'App', id: 'app' },
+    { href: '/guide', label: 'Guide', id: 'guide' },
+    { href: '/explore', label: 'Explore', id: 'explore' },
+    { href: '/app', label: 'App', id: 'app' },
   ];
 
   return (

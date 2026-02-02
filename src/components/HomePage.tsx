@@ -192,6 +192,7 @@ const Hero = () => {
           </span>
           <h1 className="font-heading text-foreground mb-6 text-5xl leading-[1.1] font-bold md:text-7xl">
             Let's zen with{' '}
+            <br/>
             <span className="text-primary relative inline-block">
               Cheryx
               <svg
